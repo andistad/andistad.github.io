@@ -1,0 +1,51 @@
+/* Style the header */
+.header {
+   font-family: fantasy; 
+   font-size: 50px;
+   background: rgb(171, 223, 230);
+   text-align: center;
+   padding: 10px 0px;
+}
+
+.postTitle {
+  font-family: fantasy; 
+   font-size: 20px;
+   text-align: left;
+   padding: 10px 0px;
+   clear: both;
+}
+
+.postText {
+  background: rgb(241, 210, 210);
+  padding: 5px;
+  text-align: justify;
+}
+.postText img:first-child {
+  width: 150px;
+  position: absolute;
+  margin: 0 10px 100px 0;
+}
+.postText div {
+  margin-left: 160px;
+  min-height: 110px;
+}
+.menu {
+  background: rgb(241, 210, 210);
+  padding: 5px;
+}
+.menu ul {
+  padding: 10;
+  display: inline;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+#search {
+float: right;
+}
+.menu li:hover {
+  background: #cfcccf;
+  cursor: hand;
+}
